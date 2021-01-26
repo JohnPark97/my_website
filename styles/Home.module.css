@@ -7,7 +7,16 @@
   align-items: center;
 }
 
+.navbar {
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background: rgb(244, 174, 114);
+}
+
 .main {
+  height: 100%;
+  background: rgb(255, 247, 238);
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -104,7 +113,7 @@
   font-size: 1.5rem;
 }
 
-.card p {
+.card ul li {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
