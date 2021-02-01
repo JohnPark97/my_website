@@ -2,11 +2,12 @@ import styles from './menuBar.module.css'
 
 
 const items = ["introduction", "projects", "experiences"]
+let path = "/";
 
 export default function MenuBar() {
     const listItems = items.map((item) =>
         <li className={styles.element} key={item}>
-                <a href="#">
+                <a href={path + item}>
                     {item}
                 </a>
         </li>
