@@ -1,0 +1,72 @@
+.container {
+    overflow: auto;
+}
+
+.navbar {
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background: rgb(244, 174, 114);
+}
+.body {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Chalkboard, serif;
+    letter-spacing: 0.1rem;
+    background-color: rgb(255, 247, 238);
+}
+
+.hcontainer {
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.intro {
+    margin-left: 125px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.lname {
+    font-size: 20px;
+    margin-bottom: 75px;
+    margin-top: 0;
+}
+
+.slogan {
+    font-size: 25px;
+    text-align: center;
+}
+
+.details {
+    align-items: start;
+}
+
+.logo {
+
+}
+
+.ubc {
+    font-size: 20px;
+}
+
+
+.ul li {
+    margin: 10px 0;
+}

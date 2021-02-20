@@ -1,0 +1,44 @@
+.container {
+    overflow: auto;
+}
+
+.body {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Chalkboard, serif;
+    letter-spacing: 0.1rem;
+    background-color: rgb(255, 247, 238);
+}
+
+.github {
+    font-size: 18px;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.block {
+    margin-top: 0.5rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 1.0rem;
+}
+
+.description p{
+    display: block;
+    margin: 0.5rem;
+}
+
+.description ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.description ul li {
+    text-align: start;
+    margin: 0.4rem;
+}
